@@ -1,3 +1,8 @@
+# Added by dev
+outputs/**
+.DS_Store
+.azureml/config.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
