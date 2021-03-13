@@ -109,7 +109,7 @@ trainer.evaluate_image_classifier(model, X_test, y_test, show_roc = False, uploa
 import pickle
 
 
-filename = 'outputs/model.sav'
+filename = 'outputs/mnist_model.pkl'
 pickle.dump(model, open(filename, 'wb'))
 
 print('Training finished')
